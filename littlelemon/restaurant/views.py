@@ -9,7 +9,7 @@ from rest_framework import viewsets, permissions
 
 
 def index(request):
-    return render(request, 'index_start.html', {})
+    return render(request, 'index.html', {})
 
 
 class MenuItemsView(generics.ListCreateAPIView):
